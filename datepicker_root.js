@@ -83,7 +83,7 @@
     // Shorter months' name
     monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
     // A element tag for each item of years, months and days
-    itemTag: 'li_form_available',
+    itemTag: 'li',
     // A class (CSS) for muted date item
     mutedClass: 'muted',
     // A class (CSS) for picked date item
