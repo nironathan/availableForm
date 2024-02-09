@@ -83,7 +83,7 @@
     // Shorter months' name
     monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
     // A element tag for each item of years, months and days
-    itemTag: 'li_form',
+    itemTag: 'li',
     // A class (CSS) for muted date item
     mutedClass: 'muted',
     // A class (CSS) for picked date item
@@ -93,7 +93,7 @@
     // A class (CSS) for highlight date item
     highlightedClass: 'highlighted',
     // The template of the datepicker
-    template: '<div class="datepicker-container">' + '<div class="datepicker-panel" data-view="years picker">' + '<ul>' + '<li_form data-view="years prev">&lsaquo;</li_form>' + '<li_form data-view="years current"></li_form>' + '<li_form data-view="years next">&rsaquo;</li_form>' + '</ul>' + '<ul data-view="years"></ul>' + '</div>' + '<div class="datepicker-panel" data-view="months picker">' + '<ul>' + '<li_form data-view="year prev">&lsaquo;</li_form>' + '<li_form data-view="year current"></li_form>' + '<li_form data-view="year next">&rsaquo;</li_form>' + '</ul>' + '<ul data-view="months"></ul>' + '</div>' + '<div class="datepicker-panel" data-view="days picker">' + '<ul>' + '<li_form data-view="month prev">&lsaquo;</li_form>' + '<li_form data-view="month current"></li_form>' + '<li_form data-view="month next">&rsaquo;</li_form>' + '</ul>' + '<ul data-view="week"></ul>' + '<ul data-view="days"></ul>' + '</div>' + '</div>',
+    template: '<div class="datepicker-container">' + '<div class="datepicker-panel" data-view="years picker">' + '<ul>' + '<li data-view="years prev">&lsaquo;</li>' + '<li data-view="years current"></li>' + '<li data-view="years next">&rsaquo;</li>' + '</ul>' + '<ul data-view="years"></ul>' + '</div>' + '<div class="datepicker-panel" data-view="months picker">' + '<ul>' + '<li data-view="year prev">&lsaquo;</li>' + '<li data-view="year current"></li>' + '<li data-view="year next">&rsaquo;</li>' + '</ul>' + '<ul data-view="months"></ul>' + '</div>' + '<div class="datepicker-panel" data-view="days picker">' + '<ul>' + '<li data-view="month prev">&lsaquo;</li>' + '<li data-view="month current"></li>' + '<li data-view="month next">&rsaquo;</li>' + '</ul>' + '<ul data-view="week"></ul>' + '<ul data-view="days"></ul>' + '</div>' + '</div>',
     // The offset top or bottom of the datepicker from the element
     offset: 10,
     // The `z-index` of the datepicker
