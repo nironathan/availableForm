@@ -52,7 +52,7 @@
     // A element (or selector) for triggering the datepicker
     trigger: null,
     // The ISO language code (built-in: en-US)
-    language: '',
+    language: 'de-de',
     // The date string format
     format: 'mm/dd/yyyy',
     // The initial date
