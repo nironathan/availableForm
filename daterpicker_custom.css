@@ -1,0 +1,38 @@
+<style>
+.form-button {
+	outline: none;
+}
+
+.text-field, .text-area {
+	z-index: 2;
+}
+
+.text-field:focus + .field-label,
+.field-label.active {
+	font-size: 12px;
+  top: -8px;
+  z-index: 3;
+  background-color: black;
+}
+
+.text-area:focus + .area-label,
+.area-label.active {
+	font-size: 12px;
+  top: -8px;
+  z-index: 3;
+  background-color: black;
+}
+
+.text-field-done.active{
+	width: 24px;
+  height: 24px;
+  opacity: 1;
+}
+
+
+
+.text-field.done,
+.text-area.done {
+  border-color: rgba(210, 179, 112, 0.5);
+}
+</style>
